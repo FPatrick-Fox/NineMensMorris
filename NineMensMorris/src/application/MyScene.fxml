@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Controller" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@NineMensMorrisBoard.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="a1" alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="547.0" mnemonicParsing="false" onAction="#btna1" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="a1" />
+      <Button fx:id="a4" alignment="CENTER" contentDisplay="CENTER" layoutX="29.0" layoutY="288.0" mnemonicParsing="false" onAction="#btna4" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="a4" />
+      <Button fx:id="a7" alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="28.0" mnemonicParsing="false" onAction="#btna7" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="a7" />
+      <Button fx:id="b2" alignment="CENTER" contentDisplay="CENTER" layoutX="98.0" layoutY="478.0" mnemonicParsing="false" onAction="#btnb2" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="b2" />
+      <Button fx:id="b4" alignment="CENTER" contentDisplay="CENTER" layoutX="98.0" layoutY="288.0" mnemonicParsing="false" onAction="#btnb4" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="b4" />
+      <Button fx:id="b6" alignment="CENTER" contentDisplay="CENTER" layoutX="98.0" layoutY="97.0" mnemonicParsing="false" onAction="#btnb6" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="b6" />
+      <Button fx:id="c3" alignment="CENTER" contentDisplay="CENTER" layoutX="168.0" layoutY="406.0" mnemonicParsing="false" onAction="#btnc3" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="c3" />
+      <Button fx:id="c4" alignment="CENTER" contentDisplay="CENTER" layoutX="168.0" layoutY="288.0" mnemonicParsing="false" onAction="#btnc4" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="c4" />
+      <Button fx:id="c5" alignment="CENTER" contentDisplay="CENTER" layoutX="168.0" layoutY="166.0" mnemonicParsing="false" onAction="#btnc5" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="c5" />
+      <Button fx:id="d1" alignment="CENTER" contentDisplay="CENTER" layoutX="288.0" layoutY="547.0" mnemonicParsing="false" onAction="#btnd1" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="d1" />
+      <Button fx:id="d2" alignment="CENTER" contentDisplay="CENTER" layoutX="288.0" layoutY="478.0" mnemonicParsing="false" onAction="#btnd2" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="d2" />
+      <Button fx:id="d3" alignment="CENTER" contentDisplay="CENTER" layoutX="288.0" layoutY="406.0" mnemonicParsing="false" onAction="#btnd3" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="d3" />
+      <Button fx:id="d5" alignment="CENTER" contentDisplay="CENTER" layoutX="288.0" layoutY="166.0" mnemonicParsing="false" onAction="#btnd5" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="d5" />
+      <Button fx:id="d6" alignment="CENTER" contentDisplay="CENTER" layoutX="288.0" layoutY="97.0" mnemonicParsing="false" onAction="#btnd6" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="d6" />
+      <Button fx:id="d7" alignment="CENTER" contentDisplay="CENTER" layoutX="288.0" layoutY="28.0" mnemonicParsing="false" onAction="#btnd7" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="d7" />
+      <Button fx:id="e3" alignment="CENTER" contentDisplay="CENTER" layoutX="408.0" layoutY="406.0" mnemonicParsing="false" onAction="#btne3" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="e3" />
+      <Button fx:id="e4" alignment="CENTER" contentDisplay="CENTER" layoutX="408.0" layoutY="288.0" mnemonicParsing="false" onAction="#btne4" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="e4" />
+      <Button fx:id="e5" alignment="CENTER" contentDisplay="CENTER" layoutX="408.0" layoutY="166.0" mnemonicParsing="false" onAction="#btne5" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="e5" />
+      <Button fx:id="f2" alignment="CENTER" contentDisplay="CENTER" layoutX="478.0" layoutY="478.0" mnemonicParsing="false" onAction="#btnf2" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="f2" />
+      <Button fx:id="f4" alignment="CENTER" contentDisplay="CENTER" layoutX="478.0" layoutY="288.0" mnemonicParsing="false" onAction="#btnf4" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="f4" />
+      <Button fx:id="f6" alignment="CENTER" contentDisplay="CENTER" layoutX="478.0" layoutY="97.0" mnemonicParsing="false" onAction="#btnf6" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="f6" />
+      <Button fx:id="g1" alignment="CENTER" contentDisplay="CENTER" layoutX="548.0" layoutY="547.0" mnemonicParsing="false" onAction="#btng1" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="g1" />
+      <Button fx:id="g4" alignment="CENTER" contentDisplay="CENTER" layoutX="548.0" layoutY="288.0" mnemonicParsing="false" onAction="#btng4" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="g4" />
+      <Button fx:id="g7" alignment="CENTER" contentDisplay="CENTER" layoutX="548.0" layoutY="28.0" mnemonicParsing="false" onAction="#btng7" opacity="0.0" prefHeight="15.0" prefWidth="15.0" text="g7" />
+   </children>
+</AnchorPane>
